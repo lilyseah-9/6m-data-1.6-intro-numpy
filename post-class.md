@@ -11,76 +11,54 @@ Paste the answer as Python in the answer code section below each question.
 ### Question 1
 
 Given the following numpy array:
-
-```python
 arr = np.array([1, 2, 3, 4, 5])
-```
-
 Write a Python code to multiply each element in the array by 2.
 
 Answer:
-
-```python
-
-```
+arr = np.array([1, 2, 3, 4, 5])
+multiplied_arr = arr * 2
+print(multiplied_arr)
 
 ### Question 2
 
 Given the following 2D numpy array:
-
-```python
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-```
-
 Write a Python code to select the second row of the array.
 
 Answer:
-
-```python
-
-```
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+second_row = arr[1]
+print(second_row)
 
 ### Question 3
 
 Create a 2D numpy array of shape (5, 5) filled with the number 1.
 
 Answer:
-
-```python
-
-```
+array_of_ones = np.ones((5, 5))
+print(array_of_ones)
 
 ### Question 4
 
 Given the following 2D numpy array:
-
-```python
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-```
-
 Write a Python code to calculate the sum of all the elements in each row.
 
 Answer:
-
-```python
-
-```
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+row_sums = arr.sum(axis=1)
+print(row_sums)
 
 ### Question 5
 
 Given the following 2D numpy array:
-
-```python
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-```
-
 Write a Python code to calculate the average of all the elements.
 
 Answer:
-
-```python
-
-```
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+overall_average = np.mean(arr)
+print(overall_average)
 
 ## Submission
 
